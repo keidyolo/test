@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+   background-image: url(mystery-4532583_960_720.jpg);
+   background-repeat: no-repeat;
+   background-size: 1550px 730px;
+   padding: 0; 
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+  
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    overflow: hidden;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 5px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: rgb(60, 52, 110);
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover{
+    border-color: rgb(255, 255, 255);
+}
+
