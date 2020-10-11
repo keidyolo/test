@@ -1,6 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -46,3 +46,9 @@ body {
     border-color: rgb(255, 255, 255);
 }
 
+.playlist{
+    opacity: .3;
+    position:absolute; 
+    left:475px; 
+    top:600px
+}
